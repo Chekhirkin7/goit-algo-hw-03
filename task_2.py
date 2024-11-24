@@ -13,4 +13,4 @@ def get_numbers_ticket(min, max, quantity):
 
 	return print(ticket)
 
-get_numbers_ticket(1,49,3)
+get_numbers_ticket(1,49,6)
