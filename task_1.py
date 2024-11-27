@@ -12,9 +12,9 @@ def get_days_from_today(date):
 
 	result = (date_obj - date_now).days #Обчислення 
 
-	return print (f"Результат: {result}") #Виведення результату у днях
+	return result #Виведення результату у днях
 
-get_days_from_today("2024-12-10") #Виклик функції
+print(f"Результат: {get_days_from_today("2024-12-10")}") #Виклик функції
 
 
 
